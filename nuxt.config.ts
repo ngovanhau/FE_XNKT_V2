@@ -1,0 +1,17 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss'],
+  
+  // Cấu hình runtimeConfig để sử dụng biến từ .env
+  runtimeConfig: {
+    public: {
+      apiBase: '' // Sẽ được ghi đè bởi NUXT_PUBLIC_API_BASE trong .env
+    }
+  },
+
+  future: {
+    compatibilityVersion: 4
+  }
+})

@@ -1,0 +1,1774 @@
+{
+    "HttpStatus": 200,
+    "IsSuccess": true,
+    "Data": {
+        "WoCode": "292378",
+        "Matbi": "KNT-I-DSCR",
+        "Groups": [
+            {
+                "Type": "CVD",
+                "DeviceCount": 3,
+                "Items": [
+                    {
+                        "NO": 1,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-PCV-2231A",
+                        "DESCRIPTION": "PRESSURE CONTROL VALVE PCV&PY-2231A",
+                        "LOCATION": null,
+                        "TYPE": "CVD",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": "NA",
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T12:28:21",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 2,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-PCV-2231B",
+                        "DESCRIPTION": "PRESSURE CONTROL VALVE PCV&PY-2231B",
+                        "LOCATION": null,
+                        "TYPE": "CVD",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": null,
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 3,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-LCV-2231",
+                        "DESCRIPTION": "LEVEL CONTROL VALVE LCV-2231",
+                        "LOCATION": null,
+                        "TYPE": "CVD",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": null,
+                        "LASTSAVED": null
+                    }
+                ],
+                "Template": {
+                    "templateId": 7,
+                    "categoryCode": "CVD",
+                    "templateName": "CONTROL VALVES, DVC",
+                    "headerParents": [
+                        {
+                            "parentHeaderId": 101,
+                            "text": "CONTROL VALVES, DVC",
+                            "displayOrder": 1,
+                            "style": {
+                                "align": "center",
+                                "fontSize": 16,
+                                "fontWeight": "bold"
+                            }
+                        }
+                    ],
+                    "tableStyle": {
+                        "borderCollapse": "collapse",
+                        "widthMode": "auto"
+                    },
+                    "rowStyle": {
+                        "height": 30,
+                        "fontSize": 10
+                    },
+                    "headerChildren": [
+                        {
+                            "headerId": 1081,
+                            "text": "No",
+                            "sourceField": "NO",
+                            "width": 4,
+                            "align": "center",
+                            "displayOrder": 1,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1082,
+                            "text": "TagName",
+                            "sourceField": "TAGNAME",
+                            "width": 30,
+                            "align": "center",
+                            "displayOrder": 2,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1083,
+                            "text": "Description",
+                            "sourceField": "DESCRIPTION",
+                            "width": 50,
+                            "align": "center",
+                            "displayOrder": 3,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "left",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1084,
+                            "text": "Range& Unit",
+                            "sourceField": "UDF1",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 4,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1085,
+                            "text": "As found",
+                            "sourceField": "UDF2",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 5,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1086,
+                            "text": "As left",
+                            "sourceField": "UDF3",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 6,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1087,
+                            "text": "Scada/HMI",
+                            "sourceField": "UDF4",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 7,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "select",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "option",
+                            "optionalType": "RESULT",
+                            "optionSelectionMode": "single",
+                            "children": []
+                        },
+                        {
+                            "headerId": 1088,
+                            "text": "Result",
+                            "sourceField": "UDF5",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 8,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "select",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "option",
+                            "optionalType": "RESULT",
+                            "optionSelectionMode": "single",
+                            "children": []
+                        },
+                        {
+                            "headerId": 1089,
+                            "text": "Remark",
+                            "sourceField": "UDF6",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 9,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        }
+                    ]
+                },
+                "UdfFieldConfigs": [
+                    {
+                        "SourceField": "UDF1",
+                        "HeaderText": "Range& Unit",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF2",
+                        "HeaderText": "As found",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF3",
+                        "HeaderText": "As left",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF4",
+                        "HeaderText": "Scada/HMI",
+                        "DataType": "option",
+                        "OptionalType": "RESULT",
+                        "OptionSelectionMode": "single",
+                        "InputType": "select",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF5",
+                        "HeaderText": "Result",
+                        "DataType": "option",
+                        "OptionalType": "RESULT",
+                        "OptionSelectionMode": "single",
+                        "InputType": "select",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF6",
+                        "HeaderText": "Remark",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    }
+                ],
+                "FieldStyles": [
+                    {
+                        "sourceField": "NO",
+                        "headerText": "No",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "TAGNAME",
+                        "headerText": "TagName",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "DESCRIPTION",
+                        "headerText": "Description",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "left",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF1",
+                        "headerText": "Range& Unit",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF2",
+                        "headerText": "As found",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF3",
+                        "headerText": "As left",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF4",
+                        "headerText": "Scada/HMI",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "option",
+                        "inputType": "select",
+                        "optionalType": "RESULT",
+                        "optionSelectionMode": "single"
+                    },
+                    {
+                        "sourceField": "UDF5",
+                        "headerText": "Result",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "option",
+                        "inputType": "select",
+                        "optionalType": "RESULT",
+                        "optionSelectionMode": "single"
+                    },
+                    {
+                        "sourceField": "UDF6",
+                        "headerText": "Remark",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    }
+                ]
+            },
+            {
+                "Type": "TR",
+                "DeviceCount": 8,
+                "Items": [
+                    {
+                        "NO": 1,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-LT-2231",
+                        "DESCRIPTION": "LEVEL GAUGE/TRANSMITTER LG/LT-2231",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T10:44:56",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 2,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-LZT-2232",
+                        "DESCRIPTION": "LEVEL GAUGE/TRANSMITTER LG/LZT-2232",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T10:44:58",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 3,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-PIT-2233",
+                        "DESCRIPTION": "PRESSURE TRANSMITTER PIT-2233",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T10:45:01",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 4,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-PZT-2232",
+                        "DESCRIPTION": "PRESSURE TRANSMITTER PZT-2232",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T10:45:02",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 5,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-PDIT-2231",
+                        "DESCRIPTION": "DIFF PRESSURE TRANSMITTER PDIT-2231",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": "PSD,Alarm",
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": null,
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T16:48:15",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 6,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-PT-2234",
+                        "DESCRIPTION": "PRESSURE TRANSMITTER PT-2234",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": "Alarm",
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": "Not OK",
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T15:43:11",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 7,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-TT-2231",
+                        "DESCRIPTION": "TEMPERATURE TRANSMITTER TT-2231",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": null,
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": "OK",
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T15:31:30",
+                        "LASTSAVED": null
+                    },
+                    {
+                        "NO": 8,
+                        "WO_CODE": "292378",
+                        "TAGNAME": "KNT-FT-2231",
+                        "DESCRIPTION": "FLOW TRANSMITTER FT-2231",
+                        "LOCATION": null,
+                        "TYPE": "TR",
+                        "udf1": "PSD,ESD 1",
+                        "udf2": null,
+                        "udf3": null,
+                        "udf4": null,
+                        "udf5": null,
+                        "udf6": "OK",
+                        "udf7": null,
+                        "udf8": null,
+                        "udf9": null,
+                        "udf10": null,
+                        "udf11": null,
+                        "udf12": null,
+                        "udf13": null,
+                        "udf14": null,
+                        "udf15": null,
+                        "CREATEDBY": null,
+                        "CREATED": null,
+                        "UPDATEDBY": null,
+                        "UPDATED": "2026-04-29T15:34:03",
+                        "LASTSAVED": null
+                    }
+                ],
+                "Template": {
+                    "templateId": 2,
+                    "categoryCode": "TR",
+                    "templateName": "TRANSMITTERS",
+                    "headerParents": [
+                        {
+                            "parentHeaderId": 105,
+                            "text": "TRANSMITTERS",
+                            "displayOrder": 1,
+                            "style": {
+                                "align": "center",
+                                "fontSize": 16,
+                                "fontWeight": "bold"
+                            }
+                        }
+                    ],
+                    "tableStyle": {
+                        "borderCollapse": "collapse",
+                        "widthMode": "auto"
+                    },
+                    "rowStyle": {
+                        "height": 30,
+                        "fontSize": 14
+                    },
+                    "headerChildren": [
+                        {
+                            "headerId": 1120,
+                            "text": "No",
+                            "sourceField": "NO",
+                            "width": 5,
+                            "align": "center",
+                            "displayOrder": 1,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1121,
+                            "text": "Tagname",
+                            "sourceField": "TAGNAME",
+                            "width": 30,
+                            "align": "center",
+                            "displayOrder": 2,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1122,
+                            "text": "Description",
+                            "sourceField": "DESCRIPTION",
+                            "width": 50,
+                            "align": "center",
+                            "displayOrder": 3,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "left",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1123,
+                            "text": "Function",
+                            "sourceField": "UDF1",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 4,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "select",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "option",
+                            "optionalType": "FUNCTIONTR",
+                            "optionSelectionMode": "multiple",
+                            "children": []
+                        },
+                        {
+                            "headerId": 1124,
+                            "text": "Range&Unit",
+                            "sourceField": "UDF2",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 5,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1125,
+                            "text": "As found",
+                            "sourceField": "UDF3",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 6,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1126,
+                            "text": "As left",
+                            "sourceField": "UDF4",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 7,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        },
+                        {
+                            "headerId": 1127,
+                            "text": "Scada/HMI",
+                            "sourceField": "UDF5",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 8,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "select",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "option",
+                            "optionalType": "RESULT",
+                            "optionSelectionMode": "single",
+                            "children": []
+                        },
+                        {
+                            "headerId": 1128,
+                            "text": "Result",
+                            "sourceField": "UDF6",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 9,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "select",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "option",
+                            "optionalType": "RESULT",
+                            "optionSelectionMode": "single",
+                            "children": []
+                        },
+                        {
+                            "headerId": 1129,
+                            "text": "Remark",
+                            "sourceField": "UDF7",
+                            "width": 20,
+                            "align": "center",
+                            "displayOrder": 10,
+                            "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff"
+                            },
+                            "valueStyle": {
+                                "fontWeight": "normal",
+                                "fontSize": 14,
+                                "border": "all",
+                                "backgroundColor": "#ffffff",
+                                "align": "center",
+                                "color": "#0f172a",
+                                "padding": 4
+                            },
+                            "inputType": "text",
+                            "defaultValue": null,
+                            "validation": {
+                                "required": false,
+                                "maxLength": null
+                            },
+                            "options": null,
+                            "dataType": "text",
+                            "optionalType": null,
+                            "optionSelectionMode": null,
+                            "children": []
+                        }
+                    ]
+                },
+                "UdfFieldConfigs": [
+                    {
+                        "SourceField": "UDF1",
+                        "HeaderText": "Function",
+                        "DataType": "option",
+                        "OptionalType": "FUNCTIONTR",
+                        "OptionSelectionMode": "multiple",
+                        "InputType": "select",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF2",
+                        "HeaderText": "Range&Unit",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF3",
+                        "HeaderText": "As found",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF4",
+                        "HeaderText": "As left",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF5",
+                        "HeaderText": "Scada/HMI",
+                        "DataType": "option",
+                        "OptionalType": "RESULT",
+                        "OptionSelectionMode": "single",
+                        "InputType": "select",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF6",
+                        "HeaderText": "Result",
+                        "DataType": "option",
+                        "OptionalType": "RESULT",
+                        "OptionSelectionMode": "single",
+                        "InputType": "select",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    },
+                    {
+                        "SourceField": "UDF7",
+                        "HeaderText": "Remark",
+                        "DataType": "text",
+                        "OptionalType": null,
+                        "OptionSelectionMode": null,
+                        "InputType": "text",
+                        "HeaderStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "ValueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        }
+                    }
+                ],
+                "FieldStyles": [
+                    {
+                        "sourceField": "NO",
+                        "headerText": "No",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "TAGNAME",
+                        "headerText": "Tagname",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "DESCRIPTION",
+                        "headerText": "Description",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "left",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF1",
+                        "headerText": "Function",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "option",
+                        "inputType": "select",
+                        "optionalType": "FUNCTIONTR",
+                        "optionSelectionMode": "multiple"
+                    },
+                    {
+                        "sourceField": "UDF2",
+                        "headerText": "Range&Unit",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF3",
+                        "headerText": "As found",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF4",
+                        "headerText": "As left",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    },
+                    {
+                        "sourceField": "UDF5",
+                        "headerText": "Scada/HMI",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "option",
+                        "inputType": "select",
+                        "optionalType": "RESULT",
+                        "optionSelectionMode": "single"
+                    },
+                    {
+                        "sourceField": "UDF6",
+                        "headerText": "Result",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "option",
+                        "inputType": "select",
+                        "optionalType": "RESULT",
+                        "optionSelectionMode": "single"
+                    },
+                    {
+                        "sourceField": "UDF7",
+                        "headerText": "Remark",
+                        "headerStyle": {
+                            "fontWeight": "bold",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff"
+                        },
+                        "valueStyle": {
+                            "fontWeight": "normal",
+                            "fontSize": 14,
+                            "border": "all",
+                            "backgroundColor": "#ffffff",
+                            "align": "center",
+                            "color": "#0f172a",
+                            "padding": 4
+                        },
+                        "dataType": "text",
+                        "inputType": "text",
+                        "optionalType": null,
+                        "optionSelectionMode": null
+                    }
+                ]
+            }
+        ]
+    }
+}

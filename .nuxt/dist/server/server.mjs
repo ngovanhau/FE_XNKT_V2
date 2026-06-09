@@ -1,0 +1,1 @@
+export { default } from "file:///C:/XNKT/FE_XNKT-V2/FE_XNKT/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"

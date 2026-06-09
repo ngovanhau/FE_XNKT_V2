@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as a,a as c,a2 as o}from"./DY5FfKl3.js";const n={},d={class:"min-h-screen flex justify-center bg-white"},r={class:"w-[95%] bg-white rounded-lg shadow p-6"};function _(e,i){return t(),a("div",d,[c("div",r,[o(e.$slots,"default",{},void 0,!0)])])}const f=s(n,[["render",_],["__scopeId","data-v-9198c6b1"]]);export{f as default};
